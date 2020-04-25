@@ -31,3 +31,7 @@ trimetStops %>%
   geom_point() 
 ```
 
+## Blog
+
+A blog post written about this package can be found at [this site](https://www.reed.edu/math/241/2020/03/20/trimetstops/).
+
