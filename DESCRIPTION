@@ -1,16 +1,10 @@
 Package: trimetStops
 Title: This package contains information on all of the TriMet stops in the Portland Metro Area
 Version: 0.0.0.9000
-Authors@R: 
-    c(person(given = "Grayson",
-           family = "White",
-           role = c("aut", "cre"),
-           email = "grwhite@reed.edu"),
-      person(given = "Brendan",
-             family = "Mobley",
-             role = c("aut"),
-             email = "bmobley@reed.edu")
-      )
+Authors@R: c(
+    person("Grayson", "White", , "graysonwhite13@gmail.com", c("aut", "cre")),
+    person("Brendan", "Mobley", , "bmobley@reed.edu", "aut")
+    )
 Description: This package contains information on all of the TriMet stops in the Portland Metro Area. It includes information such as the longitude, latitude, cross street, and direction of the stop.
 Depends:
     R (>= 3.1)
@@ -19,4 +13,4 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/Reed-Statistics/trimetStops
 BugReports: https://github.com/Reed-Statistics/trimetStops/issues
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.0

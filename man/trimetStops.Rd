@@ -4,7 +4,8 @@
 \name{trimetStops}
 \alias{trimetStops}
 \title{Portland Metro Area Trimet Stops}
-\format{A data frame with 6880 rows and 9 variables:
+\format{
+A data frame with 6880 rows and 9 variables:
 \describe{
   \item{id}{ID number of the stop, as indexed by Trimet}
   \item{name}{Contains the cross street and direction of the stop}
@@ -15,7 +16,8 @@
   \item{location_type}{Either "station", which is defined as a physical structure or area that contains more than one platform, or "platform"}
   \item{direction}{The direction that the vehicle takes people from this stop}
   \item{position}{Relates the actual position of the stop to the name given to the stop}
-}}
+}
+}
 \source{
 \url{https://developer.trimet.org/GTFS.shtml}
 }
